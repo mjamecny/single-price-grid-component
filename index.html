@@ -18,5 +18,56 @@
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Single Price Grid Component</title>
   </head>
-  <body></body>
+  <body class="bg-lightGray h-screen flex items-center">
+    <div class="px-1.6 max-w-[768px] mx-auto">
+      <div class="grid grid-cols-1 md:grid-cols-2 overflow-hidden">
+        <div
+          class="bg-[#fff] p-2.4 md:p-3.2 flex flex-col gap-1.6 md:col-span-2 rounded-tl-lg rounded-tr-lg"
+        >
+          <h1 class="text-cyan font-bold text-2.4">Join our community</h1>
+          <h2 class="text-brightYellow text-2">
+            30-day, hassle-free money back guarantee
+          </h2>
+          <p class="text-grayishBlue">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <div
+          class="bg-cyan p-2.4 md:p-3.2 flex flex-col gap-1.6 md:rounded-bl-lg"
+        >
+          <h2 class="text-lightGray font-bold text-2">Monthly Subscription</h2>
+          <div>
+            <p class="text-lightGray">
+              <b class="text-[#fff] text-3">&dollar;29</b> per month
+            </p>
+            <p class="text-lightGray">
+              Full access for less than &dollar;1 a day
+            </p>
+          </div>
+
+          <button
+            class="bg-brightYellow text-[#fff] rounded-md py-1.6 shadow-lg"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div
+          class="bg-cyan/80 p-2.4 md:p-3.2 flex flex-col gap-1.6 rounded-bl-lg rounded-br-lg md:rounded-bl-none"
+        >
+          <h2 class="text-lightGray font-bold text-2">Why us</h2>
+          <ul class="text-lightGray">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
